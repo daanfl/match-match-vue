@@ -128,6 +128,7 @@ export default {
       this.deck.forEach((element, index) => {
         if (element.number === card.number) {
           this.deck[index].open = true
+          return
         }
       })
 
